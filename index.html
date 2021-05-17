@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="icon-poke.png" type="image/x-icon">
+  <title>Poke Card</title>
+</head>
+
+<body>
+  <section class="container">
+    <div class="logo">
+      <img src="pokemon-logo.png" alt="">
+    </div>
+    <div class="content">
+      <form>
+        <input type="search" class="search" placeholder="Ex: Charizard, Gengar, Alakazam, Mewtwo">
+        <button class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </form>
+      <p class="err">Esse pokemon não existe</p>
+
+      <div class="box-pokemon">
+        <!-- Aqui é onde aparece o Pokemon buscado -->
+        <div class="box-pokemon-card">
+          <img src="">
+          <div>
+            <p>Name: <span class="name"></span></p>
+            <p>Type: <span class="type"></span></p>
+            <p>Ability: <span class="abilities"></span></p>
+            <p>Weight: <span class="weight"></span></p>
+            <p>Height: <span class="height"></span></p>
+            <p>Moves: <span class="moves"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="svg">
+
+  </section>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.content form {
+  display: flex;
+  width: 100%;
+}
+
+.content form input {
+  width: 85%;
+  border: 1px solid blue;
+  border-radius: 5px 0 0 5px;
+  padding: 20px 10px;
+}
+.content form button {
+  width: 15%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.box-pokemon {
+  display: none;
+  margin-top: 20px;
+  width: 100%;
+}
+
+span,
+p {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blue;
+}
+
+p {
+  margin-top: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.box-pokemon-card {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.box-pokemon-card div {
+  width: 100%;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.err {
+  display: none;
+  margin-top: 20px;
+  color: red;
+}
+
+img {
+  
+}
